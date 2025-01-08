@@ -1,6 +1,6 @@
 def find_second_largest(arr):
     if len(arr) < 2:
-        return -1
+     return  -1
 
     # Initialize the largest and second largest elements
     largest = second_largest = float('-inf')
