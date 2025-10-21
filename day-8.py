@@ -7,7 +7,6 @@ def maximum_Profit():
         num=int(input(f"Enter element {i+1}: "))
         arr.append(num)
     print("Array is:", arr)
-    
     for i in range(0, n-1):
         min_price=min(min_price, arr[i])
         profit=arr[i]-min_price
