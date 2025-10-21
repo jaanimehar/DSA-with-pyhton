@@ -1,4 +1,4 @@
-def maximumProfit():
+def maximum_Profit():
     n=int(input("Enter number of elements: "))  # size of array
     arr=[]
     max_profit=0
@@ -13,4 +13,4 @@ def maximumProfit():
         profit=arr[i]-min_price
         max_profit=max(max_profit, profit)
     print("Maximum Profit:", max_profit)
-maximumProfit()
+maximum_Profit()
